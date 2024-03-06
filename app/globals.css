@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .bg-grid {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' stroke='rgb(255 255 255 / 0.1)' viewBox='0 0 64 64'%3E%3Cpath d='M64 0H0v64'/%3E%3C/svg%3E");
+    background-size: 4rem;
+  }
+  .footlink {
+    @apply text-sm font-light text-white/75 transition hover:text-white cursor-pointer;
+  }
+}
